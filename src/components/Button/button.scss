@@ -1,0 +1,83 @@
+body:not(.device-touch) .button {
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+[type='button']:not(:disabled),
+[type='reset']:not(:disabled),
+[type='submit']:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+.button.button-3d {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15);
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.button.button-large {
+  padding: 0 26px;
+  font-size: 16px;
+  height: 46px;
+  line-height: 46px;
+}
+.m-0 {
+  margin: 0 !important;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+[type='button'],
+[type='reset'],
+[type='submit'],
+button {
+  -webkit-appearance: button;
+}
+
+.button-jt {
+  background-color: #2f86dd;
+}
+.button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  outline: 0;
+  white-space: nowrap;
+  margin: 0px;
+  padding: 0 22px;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #2f86dd;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+}
+
+.btn-block {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+[type='button'],
+[type='submit'],
+button {
+  -webkit-appearance: button;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}

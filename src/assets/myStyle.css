@@ -1,0 +1,197 @@
+.button-box {
+  margin-top: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title-row {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.apply-text-button {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-box .hydrated {
+  min-width: 120px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-box.full-width .hydrated {
+  flex: 1;
+}
+
+.button.full-width {
+  flex: 1;
+}
+
+.button.button-3d {
+  color: black;
+}
+
+.success-info {
+  margin: 268px auto;
+  text-align: center;
+}
+
+/* variable-control */
+:root {
+  --jobtarget-font-family: 'Poppins,sans-serif';
+  --jobtarget-primary-color: #2f86dd;
+  --jobtarget-secondary-color: #184673;
+  --jobtarget-primary-fontcolor: #343a40;
+  --jobtarget-secondary-fontcolor: #fff;
+}
+.apply-with-replacement .title-row {
+  color: var(--jobtarget-primary-color);
+}
+.apply-with-replacement *:not(i) {
+  font-family: var(--jobtarget-font-family) !important;
+}
+
+.apply-with-replacement label {
+  color: var(--jobtarget-primary-fontcolor);
+}
+
+.apply-with-replacement input:focus,
+.apply-with-replacement textarea:focus,
+.apply-with-replacement select:focus {
+  outline: none;
+  border-color: var(--jobtarget-primary-color);
+  color: var(--jobtarget-primary-fontcolor);
+  box-shadow: none;
+}
+.file-input.file-input-new.focus .kv-fileinput-caption {
+  border-color: var(--jobtarget-primary-color);
+  color: var(--jobtarget-primary-fontcolor);
+}
+
+button:active {
+  border: 1px solid var(--jobtarget-primary-color);
+}
+
+.apply-with-replacement button.button-3d {
+  background-color: var(--jobtarget-primary-color);
+  color: var(--jobtarget-secondary-fontcolor);
+}
+
+.apply-with-replacement .apply-text-button {
+  color: var(--jobtarget-primary-color);
+  height: 46px;
+}
+
+.apply-with-replacement div.btn-file {
+  background-color: var(--jobtarget-secondary-color) !important;
+  border-color: var(--jobtarget-secondary-color) !important;
+}
+
+.apply-with-replacement .file-caption-name {
+  color: var(--jobtarget-secondary-color);
+}
+.apply-with-replacement .file-caption-name::placeholder {
+  color: var(--jobtarget-secondary-color);
+}
+
+.apply-with-replacement input[type='radio'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  padding: 2px;
+  background-clip: content-box;
+  border: 1px solid var(--jobtarget-primary-fontcolor);
+  border-radius: 50%;
+}
+.apply-with-replacement .form-check-label {
+  padding-left: 7px;
+}
+.apply-with-replacement input[type='radio']:checked {
+  background-color: var(--jobtarget-secondary-color);
+  border-color: var(--jobtarget-secondary-color);
+}
+
+.apply-with-replacement input[type='checkbox'] {
+  cursor: pointer;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  font-size: 14px;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border-radius: 3px;
+  border: none;
+  outline: 1px solid var(--jobtarget-primary-fontcolor);
+}
+
+.apply-with-replacement input[type='checkbox']:checked::after {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: absolute;
+  top: 0;
+  background-color: var(--jobtarget-secondary-color);
+  outline: 1px solid var(--jobtarget-secondary-color);
+  color: #000;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  visibility: visible;
+  padding-left: 0px;
+  text-align: center;
+  content: ' ';
+  border-radius: 3px;
+}
+
+.apply-with-replacement input[type='checkbox']:checked {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: none;
+  accent-color: var(--jobtarget-secondary-color);
+  outline: 1px solid var(--jobtarget-secondary-color);
+  border-radius: 3px;
+}
+
+.apply-with-replacement input[type='checkbox']:checked::after {
+  content: '✓';
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group,
+.button-box {
+  padding: 0 18px;
+}
+
+/* .card {
+  margin: 0px 18px 24px 18px;
+} */
+
+/* label input,
+label select,
+label div {
+  margin-top: 7px;
+} */
+
+apply-label label {
+  line-height: 2.3rem;
+}
+
+.row-padding-fixed {
+  padding: 0 12px;
+}
